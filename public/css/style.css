@@ -120,6 +120,10 @@ footer p {
   line-height: 4.8rem;
   font-size: 1.4rem;
 }
+.carousel-item{
+  width: 70%;
+  margin-left: 20%;
+}
 
 /* WEATHER PAGE */
 .bg_weather {
@@ -242,6 +246,10 @@ sup {
 }
 /* RESPONSIVE CODE */
 @media (max-width: 584px) {
+  .bg_weather{
+    background: url(https://images.pexels.com/photos/3408552/pexels-photo-3408552.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat fixed center;
+    background-size: cover;
+  }
   .main_header_left {
     height: auto;
     margin: 5rem 0;
@@ -264,6 +272,8 @@ sup {
   /* WEATHER */
   .tempInformation{
       width: 90%;
+      background-color: #cacaca72;
+
   }
   .temp_form{
       width: 80%;
@@ -291,5 +301,14 @@ li.nav-item a{
   font-size: 5rem;
   font-weight: 900;
 }
-
+.main_header_right figure img {
+  width: 25rem;
+  filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.3));
+}
+.about .main_header_left{margin-top: -3em; align-items: center; justify-content: center;}
+}
+@media (max-width:358px) {
+  .main_layer .middle_layer p{
+    font-size: 3.8rem;
+  }
 }
